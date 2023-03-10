@@ -11,18 +11,17 @@
 
 .logo {
   width: 228px;
-  height: 32px;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  background-image: url(../images/logo_place_header.svg);
   z-index: 1;
 }
 
 .header {
+  margin: 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -36,6 +35,7 @@
 }
 
 .header__title {
+  margin: 0;
   display: flex;
   align-items: center;
   max-width: 730px;
@@ -123,7 +123,6 @@
 
 .two-columns__span-accent {
   font-weight: 600;
-  font-weight: bold;
 }
 
 .digits {
@@ -281,11 +280,6 @@
   justify-content: space-between;
 }
 
-.logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
-  height: 35px;
-}
-
 .footer__author {
   color: white;
   line-height: 25px;
@@ -307,6 +301,11 @@
   flex-direction: column;
   margin: 20px 0 16px;
   padding: 0;
+  list-style: none;
+}
+
+.footer__list-item {
+  display: block;
 }
 
 .footer__social–icon {

@@ -4,22 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body class="page">
   <header class="header">
-    <div class="logo logo_place_header"></div>
+    <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       <a href="#" class="header__link">Узнать &rarr;</a>
     </p>
-    <img src="./images/header-image.png" alt="Снова двойка" class="header__main-illustration">
+    <img class="header__main-illustration" src="./images/header-image.png" alt="Снова двойка">
     <div class="header__square-pic"></div>
   </header>
   <main class="content">
     <section class="description">
-      <div class="two-columns">
+      <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
@@ -33,7 +33,7 @@
             Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
           </p>
       </div>
-    </div>
+    </article>
     </section>
 
     <section class="digits">
@@ -134,30 +134,42 @@
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <div class="logo logo_place_footer"></div>
+        <img class="logo logo_place_footer" src=".//images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
         <p class="footer__author">&copy; Ольга Черных</p>
       </div>
       <nav class="footer__column footer__column_content_info">
-        <h3 class="footer__column-heading">О Практикуме</h3>
-        <nav class="footer__column-links">
-          <a href="https://praktikum.yandex.ru" target="_blank" class="footer__column-link">Главная</a>
-          <a href="#" target="_blank" class="footer__column-link">Концепция</a>
-          <a href="#" target="_blank" class="footer__column-link">Наставники</a>
-        </nav>
+        <h4 class="footer__column-heading">О Практикуме</h4>
+        <ul class="footer__column-links">
+          <li class="footer__list-item">
+            <a href="https://praktikum.yandex.ru" target="_blank" rel="nofollow noreferrer" class="footer__column-link">Главная</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" target="_blank" rel="nofollow noreferrer" class="footer__column-link">Концепция</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" target="_blank" rel="nofollow noreferrer" class="footer__column-link">Наставники</a>
+          </li>
+        </ul>
       </nav>
       <nav class="footer__column footer__column_content_social">
-        <h3 class="footer__column-heading">Соцсети</h3>
-        <nav class="footer__column-links">
-          <a href="https://www.youtube.com/channel/UCjaEmNS6ZOeKgVemfBikjGQ" target="_blank" class="footer__column-link">
-            <img class="footer__social–icon" src="./images/youtube-icon.svg" alt="Логотип YouTube">YouTube
-          </a>
-          <a href="https://vk.com/yandex.praktikum" target="_blank" class="footer__column-link">
-            <img class="footer__social–icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте">ВКонтакте
-          </a>
-          <a href="#" target="_blank" class="footer__column-link">
+        <h4 class="footer__column-heading">Соцсети</h4>
+        <ul class="footer__column-links">
+          <li class="footer__list-item">
+            <a href="https://www.youtube.com/channel/UCjaEmNS6ZOeKgVemfBikjGQ" target="_blank" rel="nofollow noreferrer" class="footer__column-link">
+              <img class="footer__social–icon" src="./images/youtube-icon.svg" alt="Логотип YouTube">YouTube
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <a href="https://vk.com/yandex.praktikum" target="_blank" rel="nofollow noreferrer" class="footer__column-link">
+              <img class="footer__social–icon" src="./images/vk_color_white.svg" alt="Логотип ВКонтакте">ВКонтакте
+            </a>
+          </li>
+          <li class="footer__list-item">
+          <a href="#" target="_blank" rel="nofollow noreferrer" class="footer__column-link">
             <img class="footer__social–icon" src="./images/tiktok-icon.svg" alt="Логотип TikTok">TikTok
           </a>
-        </nav>
+        </li>
+        </ul>
       </nav>
     </div>
   </footer>
