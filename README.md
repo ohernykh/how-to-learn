@@ -8,11 +8,11 @@
 
 ## Стек технологий:
 - HTML5;
-- CSS3:
-- Вёрстка по макету
+- CSS3;
+- Вёрстка по макету;
 - Методология БЭМ;
 - Файловая структура Nested ;
-- Работа с медиафайлами (HTML-video, iframe);
+- Работа с медиафайлами (HTML-video, iframe)
 
 ## Брифы Проектной работы:
 - [Бриф 1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf);
